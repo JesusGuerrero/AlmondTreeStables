@@ -1,0 +1,35 @@
+section.cd-hero(style="padding:0")
+    ul.cd-hero-slider
+        each item in site.header
+            li(style="background-image: url('#{item.bg}')" class="#{item.selected}")
+                if item.half
+                    .cd-half-width
+                    .cd-half-width
+                        if item.h2_2
+                            h2(style="max-width: 100%")
+                                = item.h2_2
+                        if item.img_2
+                            img(src="#{item.img_2}")
+                        if item.p_2
+                            p
+                                = item.p_2
+                if !item.half
+                    .cd-full-width
+                        .col-data
+                            if item.h2
+                                h2(style="max-width: 100%")
+                                    = item.h2
+                            if item.img
+                                img(src="#{item.img}")
+                            if item.p
+                                p
+                                    = item.p
+    .cd-slider-nav
+        nav
+            span.cd-marker.item-1
+            ul
+                each item in site.header
+                    li(class="#{item.selected}")
+                        i(class="fa fa-2x #{item.icon}")
+                        br
+                        = item.name

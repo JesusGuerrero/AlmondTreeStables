@@ -1,0 +1,58 @@
+@import "../bower_components/bootstrap/less/bootstrap.less";
+@import "../bower_components/fontawesome/less/font-awesome.less";
+
+@import "components/navigation/navigation_one.less";
+@import "components/header/header_one.less";
+@import "components/header/header_two.less";
+@import "components/features/features_one.less";
+@import "components/testimonials/testimonials_one.less";
+@import "components/footer/footer_one.less";
+@import "components/about/team.less";
+@import "components/contact/contact";
+
+html {
+  height: 100%;
+}
+body {
+  font-size: 16px;
+  height: 100%;
+}
+ol, ul {
+  list-style: none;
+  margin:0;
+  padding: 0;
+}
+
+.headline.withH2 {
+  display: block;
+  margin: 0 0 25px;
+  border-bottom: 1px dotted #e4e9f0;
+  h1, h2 {
+    border-bottom: 2px solid #4765a0;
+    margin: 0 0 -2px 0;
+    padding-bottom: 5px;
+    display: inline-block;
+  }
+}
+.underline {
+  text-decoration: underline;
+}
+#services {
+  .tab-content {
+    ol, ul {
+      list-style: disc;
+      margin-left: 25px;
+    }
+  }
+}
+@media screen and (max-width: 767px){
+  .navbar-brand {
+    h1 {
+      font-size: 21px !important;
+      line-height: 35px;
+    }
+  }
+  .caption {
+    display: none;
+  }
+}
