@@ -14,14 +14,13 @@ footer.footer
                         a( href="https://www.facebook.com/Almond-Tree-Stables-122638877794017/" target="_blank")
                             |facebook.com/Almond-Tree-Stables-122638877794017/
                 .col-md-3.col-md-offset-1.col-sm-6.col-sml-6.col-xs-12
-                    .headline.withH2
+                    //.headline.withH2
                         h2
                             |Useful Links
-                    ul.list-unstyled.link-list
+                //    ul.list-unstyled.link-list
                         each link in site.navigation
                             li
-                                a(href="#{link.href}")
-                                    = link.label
+
                         li
                             a(href="/privacy-policy") Privacy Policy
                         li
@@ -31,12 +30,17 @@ footer.footer
                         h2
                             |Contact Us
                     address.md-margin-bottom-40
-                        | 3538 Elk Ave.
+                        a(href="https://www.google.com/maps/place/3538+Elk+Ave,+Chico,+CA+95928/@39.7071728,-121.8495408,13.55z/data=!4m2!3m1!1s0x80832687200331ed:0x2d1db798cdcaaae8")
+                            i.fa.fa-map-marker
+                            |&nbsp;3538 Elk Ave. Chico, CA
                         br
-                        |Chico, CA
+                        a(href="tel:+15303329532")
+                            i.fa.fa-phone
+                            |&nbsp;(530) - 332 - 9532
                         br
-                        br
-                        |Phone: (530) - 332 - 9532
+                        a(href="mailto:erinksutton@yahoo.com")
+                            i.fa.fa-envelope
+                            |&nbsp;Email Us
     .copyright( style="padding: 10px 0 5px; background:#222222;")
         .container
             .row

@@ -4,7 +4,7 @@ window.initGoogleMap = function(){
     var $latitude = 39.682625,
     //Please visit http://www.latlong.net/convert-address-to-lat-long.html you can easily generate.
       $longitude = -121.859339,
-      $mapZoom = 16; /* ZOOM SETTING */
+      $mapZoom = 13; /* ZOOM SETTING */
 
     //google map custom marker icon - .png fallback for IE11
     var isInternetExplorer11 = navigator.userAgent.toLowerCase().indexOf('trident') > -1;
@@ -12,7 +12,7 @@ window.initGoogleMap = function(){
 
     //set google map options
     var mapOptions = {
-      center: new google.maps.LatLng($latitude, $longitude),
+      center: new google.maps.LatLng(39.71, -121.859339),
       zoom: $mapZoom,
       panControl: true,
       zoomControl: true,

@@ -9546,7 +9546,7 @@ Javascript disabled
 .about .col-xs-12 .container p::first-letter {
   font-size: 55px;
   float: left;
-  margin: 8px 0px 0px 0;
+  margin: 8px 10px 0px 0;
   line-height: 40px;
 }
 section.features {

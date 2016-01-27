@@ -24,10 +24,10 @@
         <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
             <li class="hidden"><a href="#page-top"></a></li>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about-us">About Us</a></li>
-            <li><a href="/our-services">Our Services</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><a href="tel:+15303329532" target="undefined"><i class='fa fa-phone'></i> 530.332.9532</a></li>
+            <li><a href="https://www.google.com/maps/place/3538+Elk+Ave,+Chico,+CA+95928/@39.7071728,-121.8495408,13.55z/data=!4m2!3m1!1s0x80832687200331ed:0x2d1db798cdcaaae8" target="_blank"><i class='fa fa-map-marker'></i> 3538 Elk Ave., Chico CA</a></li>
+            <li><a href="mailto:erinksutton@yahoo.com" target="undefined"><i class='fa fa-envelope'></i></a></li>
+            <li><a href="https://www.facebook.com/Almond-Tree-Stables-122638877794017/?fref=nf" target="_blank"><i class='fa fa-facebook'></i></a></li>
           </ul>
         </div>
       </div>
@@ -149,23 +149,25 @@
               <p class="text-center"><a href="https://www.facebook.com/Almond-Tree-Stables-122638877794017/" target="_blank">facebook.com/Almond-Tree-Stables-122638877794017/</a></p>
             </div>
             <div class="col-md-3 col-md-offset-1 col-sm-6 col-sml-6 col-xs-12">
-              <div class="headline withH2">
-                <h2>Useful Links</h2>
-              </div>
-              <ul class="list-unstyled link-list">
-                <li><a href="/">Home</a></li>
-                <li><a href="/about-us">About Us</a></li>
-                <li><a href="/our-services">Our Services</a></li>
-                <li><a href="/contact">Contact</a></li>
-                <li><a href="/privacy-policy">Privacy Policy</a></li>
-                <li><a href="/terms-of-service">Terms of Service</a></li>
-              </ul>
+              <!--.headline.withH2
+              h2
+                  |Useful Links
+              -->
             </div>
+            <!--    ul.list-unstyled.link-list
+            each link in site.navigation
+                li
+                
+            li
+                a(href="/privacy-policy") Privacy Policy
+            li
+                a(href="/terms-of-service") Terms of Service
+            -->
             <div class="col-md-3 col-sm-6 col-sml-6 col-xs-12 map-bg">
               <div class="headline withH2">
                 <h2>Contact Us</h2>
               </div>
-              <address class="md-margin-bottom-40">3538 Elk Ave.<br>Chico, CA<br><br>Phone: (530) - 332 - 9532</address>
+              <address class="md-margin-bottom-40"><a href="https://www.google.com/maps/place/3538+Elk+Ave,+Chico,+CA+95928/@39.7071728,-121.8495408,13.55z/data=!4m2!3m1!1s0x80832687200331ed:0x2d1db798cdcaaae8"><i class="fa fa-map-marker"></i>&nbsp;3538 Elk Ave. Chico, CA</a><br><a href="tel:+15303329532"><i class="fa fa-phone"></i>&nbsp;(530) - 332 - 9532</a><br><a href="mailto:erinksutton@yahoo.com"><i class="fa fa-envelope"></i>&nbsp;Email Us</a></address>
             </div>
           </div>
         </div>

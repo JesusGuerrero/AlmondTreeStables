@@ -1,8 +1,10 @@
 {
   "domain": "Almond Tree Stables",
   "navigation": [
-    {"href": "/", "label": "Home"}, {"href": "/about-us", "label": "About Us"},
-    {"href": "/our-services", "label": "Our Services"}, {"href": "/contact", "label": "Contact"}
+    {"href":"tel:+15303329532", "label":"<i class='fa fa-phone'></i> 530.332.9532"},
+    {"href": "https://www.google.com/maps/place/3538+Elk+Ave,+Chico,+CA+95928/@39.7071728,-121.8495408,13.55z/data=!4m2!3m1!1s0x80832687200331ed:0x2d1db798cdcaaae8", "target":"_blank", "label": "<i class='fa fa-map-marker'></i> 3538 Elk Ave., Chico CA"},
+    {"href": "mailto:erinksutton@yahoo.com", "label": "<i class='fa fa-envelope'></i>"},
+    {"href": "https://www.facebook.com/Almond-Tree-Stables-122638877794017/?fref=nf", "target":"_blank", "label": "<i class='fa fa-facebook'></i>"}
   ],
   "header": [
     {
@@ -24,7 +26,7 @@
       "icon": "fa-shield",
       "bg": "/assets/img/carousel-1.jpg",
       "h2": "Horse Boarding",
-      "p": "Teach your horse to perform certain behaviours.",
+      "p": "If you don't have space to keep a horse, boarding your horse is an excellent option. Even if you have the space, you may choose to board him anyway. Let's take a look at some of the pros and cons of boarding a horse.",
       "a": {
         "label": "Read more",
         "href": "#"
@@ -36,7 +38,7 @@
       "icon": "fa-flag-checkered",
       "bg": "/assets/img/carousel-3.jpg",
       "h2": "Horse Riding",
-      "p": "Enjoy a gorgeous ride with your friends.",
+      "p": "The Almond Tree Stables offers a comprehensive program for beginning and intermediate riders. Never ridden? No problem. Haven’t ridden in years? No problem. Need a refresher course?  No problem. We pride ourselves in teaching our students in depth horsemanship that will stay with them. From our newest students who are learning the basics to our long term students who are enjoying a more in depth experience with our wonderful horses…we love it all!",
       "a": {
         "label": "Learn more",
         "href": "#"
@@ -46,9 +48,9 @@
     {
       "name": "Events",
       "icon": "fa-calendar",
-      "bg": "",
+      "bg": "/assets/img/carousel-4.jpg",
       "h2": "Events",
-      "p": "Join us for monthly events at our stables.",
+      "p": "Join us for monthly events at our stables. Call us 530-332-9532 or visit social media links above.",
       "a": {
         "label": "Learn more",
         "href": "#"
