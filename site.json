@@ -1,7 +1,7 @@
 {
   "domain": "Almond Tree Stables",
   "navigation": [
-    {"href":"tel:+15307177110", "label":"<i class='fa fa-phone'></i>  530.717.7110"},
+    {"href":"tel:+15308997909", "label":"<i class='fa fa-phone'></i>  530.899.7909"},
     {"href": "https://www.google.com/maps/place/3538+Elk+Ave,+Chico,+CA+95928/@39.7071728,-121.8495408,13.55z/data=!4m2!3m1!1s0x80832687200331ed:0x2d1db798cdcaaae8", "target":"_blank", "label": "<i class='fa fa-map-marker'></i> 3538 Elk Ave., Chico CA"},
     {"href": "mailto:erinksutton@yahoo.com", "label": "<i class='fa fa-envelope'></i>"},
     {"href": "https://www.facebook.com/Almond-Tree-Stables-122638877794017/?fref=nf", "target":"_blank", "label": "<i class='fa fa-facebook'></i>"}
@@ -50,7 +50,7 @@
       "icon": "fa-calendar",
       "bg": "/assets/img/carousel-4.jpg",
       "h2": "Events",
-      "p": "Join us for monthly events at our stables. Call us 530 - 717 - 7110 or visit social media links above.",
+      "p": "Join us for monthly events at our stables. Call us 530 - 899 - 7909 or visit social media links above.",
       "a": {
         "label": "Learn more",
         "href": "#"
